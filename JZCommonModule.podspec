@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JZCommonModule'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of JZCommonModule.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'JZCommonModule/*.swift'
+  s.source_files = 'JZCommonModule/Classes/*.swift'
   #s.source_files = 'JZCommonModule/Classes/**/*'
   
   # s.resource_bundles = {
