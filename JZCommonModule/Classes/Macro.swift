@@ -60,7 +60,12 @@ func kDisplayFreeTFB(_ font: CGFloat) -> UIFont {
 
 // MARK: -  UIColor
 func kSetRGBA(r: CGFloat,g: CGFloat,b: CGFloat,a: CGFloat) -> UIColor {
-    return UIColor(displayP3Red: r/255.0, green: g/255.0, blue: b/255.0, alpha: a)
+    if #available(iOS 10.0, *) {
+        return UIColor(displayP3Red: r/255.0, green: g/255.0, blue: b/255.0, alpha: a)
+    } else {
+        // Fallback on earlier versions
+        return UIColor(R: r, G: g, B: b)
+    }
 }
 func kSetRGB(r: CGFloat,g: CGFloat,b: CGFloat) -> UIColor {
     return kSetRGBA(r: r, g: g, b: b, a: 1.0)
