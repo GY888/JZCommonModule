@@ -2,7 +2,7 @@
 import UIKit
 
 extension UIColor {
-    convenience init(hex h: Int,alpha a: CGFloat = 1) {
+    public convenience init(hex h: Int,alpha a: CGFloat = 1) {
         let r = CGFloat((h & 0xFF0000) >> 16) / 255.0
         let g = CGFloat((h & 0x00FF00) >> 8) / 255.0
         let b = CGFloat(h & 0x0000FF) / 255.0
@@ -15,7 +15,7 @@ extension UIColor {
 }
 
 extension UIColor{
-    convenience init(hexString:String){
+    public convenience init(hexString:String){
         //处理数值
         var cString = hexString.uppercased().trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
         
