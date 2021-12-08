@@ -1,0 +1,16 @@
+PODS:
+  - JZCommonModule (0.1.0)
+
+DEPENDENCIES:
+  - JZCommonModule (from `../`)
+
+EXTERNAL SOURCES:
+  JZCommonModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JZCommonModule: 9c9b60b1395b10a0d556bc7a65d1a2badc73ab8c
+
+PODFILE CHECKSUM: c68f8f1509b06df5fe87cedb10422f55d22b7190
+
+COCOAPODS: 1.11.2
