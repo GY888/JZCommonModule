@@ -48,7 +48,7 @@
 		3E3181BED76B4C3304D3528A97628247 /* Pods-JZCommonModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JZCommonModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3FDC465D2A2A164256BCD04552D61798 /* Pods-JZCommonModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JZCommonModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4301178D091DFFB17892522EF589BB20 /* Pods-JZCommonModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JZCommonModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		48C7858E2AC543027563CE0038DDF816 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		48C7858E2AC543027563CE0038DDF816 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		58F601D8BE0A9DD1CB3DBF4BE3D8618C /* JZCommonModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JZCommonModule-dummy.m"; sourceTree = "<group>"; };
 		5B7BC2E03869AB172C92EB815C925E2A /* Pods-JZCommonModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JZCommonModule_Example.modulemap"; sourceTree = "<group>"; };
 		61B907A1468D0E5504D967EDC8C11C2B /* JZCommonModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JZCommonModule-prefix.pch"; sourceTree = "<group>"; };
@@ -60,14 +60,14 @@
 		80E274EE03F71F509FC7BB4B7ECE8794 /* Pods-JZCommonModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JZCommonModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		84BCE28901AD9C8273C638E3E7FF2ADE /* JZCommonModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JZCommonModule.release.xcconfig; sourceTree = "<group>"; };
 		90127D314F745A5EAD1D82DECF5001E7 /* Pods-JZCommonModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JZCommonModule_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A00AC559B2AC6A21166F5DABDC3BBE53 /* Pods-JZCommonModule_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JZCommonModule_Example"; path = Pods_JZCommonModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0EEA1687706106E4671824738AA3550 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B0EEA1687706106E4671824738AA3550 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B5C3E735AA9193BED5926A80A4E0B576 /* Pods-JZCommonModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JZCommonModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B8646E302BFA647F5BBDA8A0ACB62A0D /* UIColor+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+.swift"; path = "JZCommonModule/Classes/UIColor+.swift"; sourceTree = "<group>"; };
 		B90C7B789CF562F3F295672E5237327B /* Pods-JZCommonModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JZCommonModule_Tests.modulemap"; sourceTree = "<group>"; };
 		CB33C8EC347A088DDDBABA380CE26E23 /* Pods-JZCommonModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JZCommonModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D44E4FCD768270B49B488CA63D0068D1 /* JZCommonModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JZCommonModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D44E4FCD768270B49B488CA63D0068D1 /* JZCommonModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JZCommonModule.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		E0D5D08B5164CD849AC931D36E0333C9 /* Pods-JZCommonModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JZCommonModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E34EF039CA33AD471B7390279B7A566A /* Pods-JZCommonModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JZCommonModule_Example-dummy.m"; sourceTree = "<group>"; };
 		E468CCB7B5B26604A25127079C32C74A /* Pods-JZCommonModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JZCommonModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -691,8 +691,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
